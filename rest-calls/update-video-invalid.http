@@ -1,0 +1,10 @@
+
+PATCH http://localhost:3000/videos/3 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjksImlhdCI6MTYwMzA4Mzg1MCwiZXhwIjoxNjA1Njc1ODUwfQ.naD9udQse3UI-IyMVgQlhuplfS2XGrUvaHENRnF-JpQ
+Content-Type: application/json
+
+{
+  "video":{
+    "title": "Nuevo título v2"
+  }
+}

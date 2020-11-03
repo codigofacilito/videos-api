@@ -1,0 +1,11 @@
+POST http://localhost:3000/users HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjcsImlhdCI6MTYwMjc3ODU2OCwiZXhwIjoxNjA1MzcwNTY4fQ.L7wlw2SUdcYn3acuTlX-g7Zf0qa1MojWtPZ5KbmIQ04
+Content-Type: application/json
+
+{
+  "user":{
+    "email": "uriel2@cf.com",
+    "password": "12345678",
+    "username":"uriel"
+  }
+}
